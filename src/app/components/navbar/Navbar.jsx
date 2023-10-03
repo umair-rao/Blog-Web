@@ -20,8 +20,6 @@ const Navbar = () => {
         <Link href="/" className={styles.link}>Homepage</Link>
         <Link href="/" className={styles.link}>Contact</Link>
         <Link href="/" className={styles.link}>About</Link>
-        <Link href="/write" className={styles.link}>Write</Link>
-        <Link href="/" className={styles.link}>Logout</Link>
         <AuthLinks />
       </div>
     </div>
