@@ -41,7 +41,7 @@ const getData = async (slug) => {
         <div className={styles.imageContainer}>
           <Image src={data.img} alt="" fill className={styles.image} />
         </div>
-      )}
+      )} 
     </div>
     <div className={styles.content}>
       <div className={styles.post}>
