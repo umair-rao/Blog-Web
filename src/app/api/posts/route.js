@@ -1,4 +1,5 @@
 import { getAuthSession } from "@/utlis/auth";
+import prisma from "@/utlis/connect";
 import { NextResponse } from "next/server";
 
 export const GET = async (req) => {
@@ -17,6 +18,13 @@ export const GET = async (req) => {
     },
   };
 
+
+
+
+
+
+  
+  
   try {
     const [posts, count] = await prisma.$transaction([
       prisma.post.findMany(query),
